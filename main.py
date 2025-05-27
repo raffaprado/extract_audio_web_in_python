@@ -34,9 +34,9 @@ def extract_audio(input_video, output_audio):
 
         print("Erro ao extrair o áudio:", e)
 
-video_url = "https://vimeo.com/950195113"
-output_video_path = "/Users/rafaelprado/Documents/videos_baixados/video_test3.mp4"
-output_audio_path = "/Users/rafaelprado/Documents/audios_baixados/audio_teste1.mp3"
+video_url = "https://www.youtube.com/watch?v=j5tlz7te0_4"
+output_video_path = "C:\Users\Rafae\OneDrive\Área de Trabalho\AUDIOS BAIXADOS\video_test3.mp4"
+output_audio_path = "C:\Users\Rafae\OneDrive\Área de Trabalho\AUDIOS BAIXADOS\audio_teste1.mp3"
 
 download_video(video_url, output_video_path)
 extract_audio(output_video_path, output_audio_path)
